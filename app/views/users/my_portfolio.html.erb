@@ -1,6 +1,7 @@
 <h1>My portfolio</h1>
 <h3>Search for Stocks</h3>
 <div id="stock-lookup">
+  <!-- create search stock form -->
   <%= form_tag search_stocks_path, remote: true, method: :get, id: "stock-lookup-form" do %>
     <div class="form-group row no-padding text-center col-md-12">
       <div class="col-md-10">
@@ -14,7 +15,10 @@
     </div>
   <% end %>
 </div>
+<!-- render search result -->
 <div id="results">
   <%= render 'result' %>
 </div>
+
+<!-- render list of stocks followed by user -->
 <%= render 'stocks/list' %>
