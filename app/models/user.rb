@@ -7,6 +7,8 @@ class User < ApplicationRecord
   # define entity relations between users and stocks
   has_many :user_stocks
   has_many :stocks, through: :user_stocks
+  has_many :friendships
+  has_many :friends, through: :friendships
   
   def full_name
     # return concatenation of first and last name if one if the two exist

@@ -7,12 +7,14 @@ ruby '2.5.1'
 gem 'rails', '~> 5.2.1'
 
 gem 'devise'
-
+gem 'font-awesome-rails'
 gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 gem 'devise-bootstrap-views'
 
-gem "stock_quote"
+gem 'stock_quote'
+
+
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'

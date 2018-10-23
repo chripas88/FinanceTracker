@@ -18,10 +18,11 @@ Finance Tracker project was created using:
 Additional gems:
 
 * gem 'devise'
+* gem 'font-awesome-rails'
 * gem 'twitter-bootstrap-rails'
 * gem 'jquery-rails'
 * gem 'devise-bootstrap-views'
-* gem "stock_quote"
+* gem 'stock_quote'
 * gem 'pg' ( for production DB )
 
 Git repository:
@@ -34,7 +35,7 @@ Production environment:
 
 Creation log:
 
-01.  Include Devise and Bootstrap
+01.  Include Devise, Bootstrap, Font Awesome
 02.  Generate Stock Model
 03.  Build Stock Lookup form
 04.  Set Lookup Stock Details
@@ -47,4 +48,6 @@ Creation log:
 11.  Create list of Stocks followed by User
 12.  Build Delete Stock function
 13.  Set User Details. Add first and last name parameters to existing devise views, routes, controllers
-14.  ...
+14.  Update navigation, add user profile views.
+15.  Add Friends. Create Many to Many associations between users and users
+16.  ...
