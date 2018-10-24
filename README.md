@@ -1,5 +1,8 @@
 # README
 
+Finance Tracker project is part of the Udemy Course: The Complete Ruby on Rails Developer Course
+and was created following the instructions provided in the course.
+
 Finance Tracker is a Stock Tracker Social Media App that was created according to the following Requirements:
 
 01.  Authentication System, users can sign-up, edit their profile, log in/out.
@@ -41,13 +44,21 @@ Creation log:
 04.  Set Lookup Stock Details
 05.  Manage invalid search results
 06.  Use Ajax for Stock search form submission
-07.  Manage Errors and apply Refactoring
+07.  Manage Errors flash and apply Refactoring
 08.  Create Many to Many associations between users and stocks
 09.  Fix flash display based on Action
 10.  Apply Stock restrictions
 11.  Create list of Stocks followed by User
-12.  Build Delete Stock function
+12.  Build Delete Stock from Portfolio function
 13.  Set User Details. Add first and last name parameters to existing devise views, routes, controllers
 14.  Update navigation, add user profile views.
-15.  Add Friends. Create Many to Many associations between users and users
-16.  ...
+15.  Add Friendship model. Create Many to Many associations between users and users
+16.  Create Friendship views, create Search Friends Form
+17.  Build search methods for looking up tables
+18.  Use Ajax for Friends search form submission
+19.  Manage Errors flash and apply Refactoring
+20.  Create Users Search Display
+21.  Build Add and Remove Friend Actions
+22.  Build Friends Show Action
+23.  Minor bugfixes and enchancements
+24.  ...
